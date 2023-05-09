@@ -1,0 +1,146 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #2196f3;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #029c8f;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+.header{
+position: relative;}
+.header .container{
+  height: 100px;      
+  display: block;
+}
+.header i{
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  <span class="#8a3ab9 rgb:( 138, 58, 185);" or: ;
+}
+
+
+
+
+.imges-gus {
+  height: calc(100vh - 64px );
+    position: relative;
+    z-index: -1;
+}
+
+
+.imges-gus .container{
+  position: absolute;
+    left: 50%;
+    top:28%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+
+}
+
+.imges-gus .imges img{
+  width: 150px;
+  border-radius: 50%;
+}
+.imges-gus  .text{
+  color: white;
+}
+.imges-gus  .text h3{
+font-family:fantasy;
+  font-size: 25px;
+font-weight: 600;
+}
+.imges-gus  .text p{
+  font-size: 18px;
+font-weight: normal;
+
+}
+
+
+
+
+
+.icone {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50% , -80%);
+text-align: center;
+
+} 
+.icone .container {
+}
+.icone .box{
+  display: grid;
+  gap: 40px;
+}
+  .icone .box  a{
+  padding: 10px;
+border-radius: 35px;
+    background-color: white;
+  }
+.icone .box i{
+margin: 12px;
+font-size: 20px;  }
+
+
+.icone .box a span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.icone .box  a span .red{
+color: red;}
+
+
